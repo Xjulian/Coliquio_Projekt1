@@ -1,3 +1,8 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 body{
   margin:0px;
   background-color:#bbbbbb;
@@ -15,7 +20,10 @@ body{
 }
 
 .Navi{
-
+  background-color:#222222;
+  border-style: inset;
+  border-width: thin;
+  border-color: #FFFFFF;
 }
 
 .Navi ul{
@@ -32,5 +40,50 @@ body{
 .Navi a{
   display:block;
   margin:5px 15px;
+  color:#BBBBBB;
   text-decoration: none;
+}
+
+.Navi a:visited{
+  color:#AA3333;
+}
+
+.Navi a:active{
+  color:#CC4444;
+}
+
+.Navi a:hover{
+  text-decoration:underline;
+  color:#FF5555;
+}
+
+.Left{
+  display:inline;
+  float:left;
+  padding:5px;
+  width:20%;
+  height:auto;
+  margin-bottom:0;
+}
+
+.Right{
+  clear:both;
+  padding:25px;
+  width:70%;
+  height:auto;
+}
+
+.Footer{
+  position:fixed;
+  bottom:0;
+  background-color: black;
+  color: white;
+  width:100%;
+  text-align: right;
+}
+
+.Footer .cprght{
+  margin-right:10px;
+  margin-top:1px;
+  margin-bottom:1px;
 }
