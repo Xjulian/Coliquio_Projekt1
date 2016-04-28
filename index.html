@@ -4,24 +4,38 @@
     <meta charset="utf-8">
     <title>Website Projekt1</title>
     <link rel="stylesheet" href="design/design.css">
+    <script language="javascript" type="text/javascript" src="design/javascript.js"></script>
+
   </head>
   <body>
+    <div class="Body">
+
+<!-- Banner -->
+
     <div class="Banner">
       Website
     </div>
-    <div class="Navi">
+
+<!-- Navi -->
+
+    <nav class="Navi">
       <ul>
-        <li><a href="index.html">Hauptseite</a></li>
+        <li><a href="index.html"><p>Hauptseite</p></a></li>
         <li><a href="seite1.html">Seite 1</a></li>
-        <li><a href="seite2.html">Seite 2</a></li>
-        <li><a href="seite3.html">Seite 3</a></li>
-        <li><a href="impressum.html">Impressum</a></li>
+        <li>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Javascript-Funktion</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="seite2.html">Seite 2</a>
+            <a href="seite3.html">Seite 3</a>
+          </div>
+        </div>
+        </li>
+        <li class="impr"><a href="impressum.html">Impressum</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <article class="">
-
-
+<!-- Article -->
 
     <div class="Left">
       <ul>
@@ -32,41 +46,45 @@
       </ul>
     </div>
 
-    <div class="clearfix">
-
-    </div>
     <div class="Right">
-      Willkommen auf der Startseite! TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextTextextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextTextextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextTextextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextTextextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextTextextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextTextextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText TextTextTextText TextTextTextText
-      TextTextTextText TextTextTextText
-    </div>
+      <h1>Willkommen auf der Startseite!</h1>
 
-    </article>
-  <!-- Footer -->
+      <img src="design/VmZ6l7v.png">
+      <p>
+        Fließtext Fließtext Fließtext Fließtext Fließtext Fließtext,
+        Fließtext Fließtext Fließtext Fließtext, Fließtext Fließtext Fließtext
+        Fließtext Fließtext Fließtext Fließtext.<br>
+        Fließtext Fließtext Fließtext Fließtext Fließtext Fließtext
+        Fließtext Fließtext Fließtext Fließtext Fließtext.<br>
+        Fließtext Fließtext Fließtext, Fließtext Fließtext Fließtext Fließtext
+        Fließtext Fließtext, Fließtext Fließtext Fließtext Fließtext Fließtext
+        Fließtext Fließtext.<br>
+        Fließtext Fließtext Fließtext Fließtext Fließtext Fließtext,
+        Fließtext Fließtext Fließtext Fließtext, Fließtext Fließtext Fließtext
+        Fließtext Fließtext Fließtext Fließtext.<br>
+        Fließtext Fließtext Fließtext Fließtext Fließtext Fließtext
+        Fließtext Fließtext Fließtext Fließtext Fließtext.<br>
+        Fließtext Fließtext Fließtext, Fließtext Fließtext Fließtext Fließtext
+        Fließtext Fließtext, Fließtext Fließtext Fließtext Fließtext Fließtext
+        Fließtext Fließtext.<br>
+        Fließtext Fließtext Fließtext Fließtext Fließtext Fließtext,
+        Fließtext Fließtext Fließtext Fließtext, Fließtext Fließtext Fließtext
+        Fließtext Fließtext Fließtext Fließtext.<br>
+        Fließtext Fließtext Fließtext Fließtext Fließtext Fließtext
+        Fließtext Fließtext Fließtext Fließtext Fließtext.<br>
+        Fließtext Fließtext Fließtext, Fließtext Fließtext Fließtext Fließtext
+        Fließtext Fließtext, Fließtext Fließtext Fließtext Fließtext Fließtext
+        Fließtext Fließtext.<br>
+      </p>
+    </div>
+  </div>
+
+<!-- Footer -->
+
     <div class="Footer">
       <div class="cprght">
         © 2016 Footer
       </div>
     </div>
-
   </body>
 </html>

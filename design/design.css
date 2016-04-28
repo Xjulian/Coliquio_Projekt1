@@ -8,13 +8,22 @@ body{
   background-color:#bbbbbb;
 }
 
+.Body{
+  margin:0px auto 100px;
+  border:solid;
+  border-color: #EEEEEE;
+  width:1000px;
+  height:667px;
+}
+
 .Banner{
   padding-top: 70px;
   padding-left: 70%;
   padding-bottom: 30px;
   background-image:url("hg-feuerwerk-img-6802.jpg");
   background-repeat: no-repeat;
-  color: #CCCCCC;
+  color:rgba(255,255,255,0.7);
+  text-shadow: 0px 0px 25px #FFF;
   font-size: 30px;
   font-family: sans-serif;
 }
@@ -28,7 +37,7 @@ body{
 
 .Navi ul{
   list-style:none;
-  margin:0;
+  margin:auto 0;
   padding:0;
   border:0;
 }
@@ -57,32 +66,125 @@ body{
   color:#FF5555;
 }
 
+.Navi ul li a p{
+  color:#FFFFAA;
+}
+
+.impr{
+  float:right;
+}
+
+.dropbtn {
+    background-color: #4444BB;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #222288;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.show {
+  display:block;
+}
+
 .Left{
   display:inline;
   float:left;
-  padding:5px;
-  width:20%;
-  height:auto;
-  margin-bottom:0;
+  width:200px;
+  padding:25px 0 0 25px;
+  height:475px;
+  background-color: #989898;
+  border-left:solid;
+  border-right:solid;
+  border-bottom:solid;
+}
+
+.Left li{
+  margin:2px 0 3px 0;
+  list-style: none;
 }
 
 .Right{
-  clear:both;
-  padding:25px;
-  width:70%;
-  height:auto;
+  width:716px;
+  padding:25px 25px 0px 25px;
+  float:left;
+  background-color: #787887;
+  height:475px;
+  border-right:solid;
+  border-bottom:solid;
+}
+
+.Right img{
+  float:right;
+}
+
+.Right h1{
+  margin:0 0 25px;
+}
+
+.Seite1table{
+  width:80%;
+  margin:0 auto;
+  color:white;
+  border-collapse: collapse;
+}
+
+.Seite1table tr:nth-child(odd){
+  background-color: #232323;
+}
+
+.Seite1table tr:nth-child(even){
+  background-color: #191919;
+}
+
+.Seite1table td{
+  text-align:center;
+  border-radius: 7px;
+  border:solid;
+  border-width: thin;
+  overflow:hidden;
+  border-color: #999999;
 }
 
 .Footer{
   position:fixed;
   bottom:0;
+  padding-left:0;
   background-color: black;
   color: white;
   width:100%;
   text-align: right;
 }
 
-.Footer .cprght{
+.cprght{
   margin-right:10px;
   margin-top:1px;
   margin-bottom:1px;
