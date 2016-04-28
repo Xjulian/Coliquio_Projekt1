@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Website Projekt1</title>
+    <title>Website Startseite</title>
     <link rel="stylesheet" href="design/design.css">
     <script language="javascript" type="text/javascript" src="design/javascript.js"></script>
 
   </head>
   <body>
-    <div class="Body">
+    <div class="Container">
 
 <!-- Banner -->
 
@@ -18,20 +18,20 @@
 
 <!-- Navi -->
 
-    <nav class="Navi">
-      <ul>
-        <li><a href="index.html"><p>Hauptseite</p></a></li>
-        <li><a href="seite1.html">Seite 1</a></li>
-        <li>
+    <nav class="navi">
+      <ul class="navi__list">
+        <li class="navi__listenelement"><a href="index.html"><p class="navi__aktuell">Hauptseite</p></a></li>
+        <li class="navi__listenelement"><a href="seite1.html">Seite 1</a></li>
+        <li class="navi__listenelement">
         <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">Javascript-Funktion</button>
-          <div id="myDropdown" class="dropdown-content">
+          <button onclick="myFunction()" class="dropbtn">Mehr</button>
+          <div id="drpdwnnavi" class="dropdown-content">
             <a href="seite2.html">Seite 2</a>
             <a href="seite3.html">Seite 3</a>
           </div>
         </div>
         </li>
-        <li class="impr"><a href="impressum.html">Impressum</a></li>
+        <li class="navi__impr"><a href="impressum.html">Impressum</a></li>
       </ul>
     </nav>
 
@@ -49,7 +49,7 @@
     <div class="Right">
       <h1>Willkommen auf der Startseite!</h1>
 
-      <img src="design/VmZ6l7v.png">
+      <img class="Right__dckbtt" src="design/VmZ6l7v.png">
       <p>
         Fließtext Fließtext Fließtext Fließtext Fließtext Fließtext,
         Fließtext Fließtext Fließtext Fließtext, Fließtext Fließtext Fließtext

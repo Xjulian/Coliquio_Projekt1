@@ -2,13 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Website Projekt1</title>
+    <title>Website Seite 1</title>
     <link rel="stylesheet" href="design/design.css">
     <script language="javascript" type="text/javascript" src="design/javascript.js"></script>
 
   </head>
   <body>
-    <div class="Body">
+    <div class="Container">
+
+
 
 <!-- Banner -->
 
@@ -16,24 +18,28 @@
       Website
     </div>
 
+
+
 <!-- Navi -->
 
-    <nav class="Navi">
-      <ul>
-        <li><a href="index.html">Hauptseite</a></li>
-        <li><a href="seite1.html"><p>Seite 1</p></a></li>
-        <li>
-        <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">Javascript-Funktion</button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="seite2.html">Seite 2</a>
-            <a href="seite3.html">Seite 3</a>
-          </div>
-        </div>
-        </li>
-        <li class="impr"><a href="impressum.html">Impressum</a></li>
-      </ul>
-    </nav>
+<nav class="navi">
+  <ul class="navi__list">
+    <li class="navi__listenelement"><a href="index.html">Hauptseite</a></li>
+    <li class="navi__listenelement"><a href="seite1.html"><p class="navi__aktuell">Seite 1</p></a></li>
+    <li class="navi__listenelement">
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Mehr</button>
+      <div id="drpdwnnavi" class="dropdown-content">
+        <a href="seite2.html">Seite 2</a>
+        <a href="seite3.html">Seite 3</a>
+      </div>
+    </div>
+    </li>
+    <li class="navi__impr"><a href="impressum.html">Impressum</a></li>
+  </ul>
+</nav>
+
+
 
 <!-- Article -->
 
@@ -48,30 +54,32 @@
 
     <div class="Right">
       <table class="Seite1table">
-        <tr class="1">
-          <td></td>
+        <tr class="Right__tr1">
+          <td class="Seite1table__top-left"></td>
           <td>Blieblahblubbs</td>
-          <td>Blahblubbs</td>
+          <td class="Seite1table__top-right">Blahblubbs</td>
         </tr>
-        <tr class="2">
+        <tr class="Right__tr2">
           <td>Wert 1</td>
           <td>55</td>
           <td>23</td>
         </tr>
-        <tr class="3">
+        <tr class="Right__tr3">
           <td>Wert 2</td>
           <td>75</td>
           <td>89</td>
         </tr>
-        <tr class="4">
-          <td>Wert 3</td>
+        <tr class="Right__tr4">
+          <td class="Seite1table__bottom-left">Wert 3</td>
           <td>42</td>
-          <td>67</td>
+          <td class="Seite1table__bottom-right">67</td>
         </tr>
       </table>
     </div>
 
   </div>
+
+
 
 <!-- Footer -->
 

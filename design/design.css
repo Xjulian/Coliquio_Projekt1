@@ -5,16 +5,26 @@
 
 body{
   margin:0px;
-  background-color:#bbbbbb;
+  background-color:#aaa;
 }
 
-.Body{
+
+
+/* Container */
+
+.Container{
   margin:0px auto 100px;
   border:solid;
-  border-color: #EEEEEE;
+  border-width: thick;
+  border-color: #bbb;
   width:1000px;
   height:667px;
+  box-shadow: 0px 3px 10px 5px #222;
 }
+
+
+
+/* Banner */
 
 .Banner{
   padding-top: 70px;
@@ -28,92 +38,100 @@ body{
   font-family: sans-serif;
 }
 
-.Navi{
+
+
+/* Navigation */
+
+.navi{
   background-color:#222222;
   border-style: inset;
   border-width: thin;
   border-color: #FFFFFF;
 }
 
-.Navi ul{
+.navi__list{
   list-style:none;
   margin:auto 0;
   padding:0;
   border:0;
 }
 
-.Navi ul li{
+.navi__listenelement{
   display:inline-block;
 }
 
-.Navi a{
+.navi__aktuell{
+  color:#FFFFAA;
+}
+
+.navi a{
   display:block;
   margin:5px 15px;
   color:#BBBBBB;
   text-decoration: none;
 }
 
-.Navi a:visited{
+.navi a:visited{
   color:#AA3333;
 }
 
-.Navi a:active{
+.navi a:active{
   color:#CC4444;
 }
 
-.Navi a:hover{
+.navi a:hover{
   text-decoration:underline;
   color:#FF5555;
 }
 
-.Navi ul li a p{
-  color:#FFFFAA;
-}
-
-.impr{
-  float:right;
-}
-
 .dropbtn {
-    background-color: #4444BB;
-    color: white;
-    padding: 5px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+  background-color: #4444BB;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #222288;
+  background-color: #222288;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: none;
+  position: absolute;
+  background-color: #444;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #222244;
 }
 
 .show {
   display:block;
 }
+
+.navi__impr{
+  float:right;
+}
+
+
+
+/* Left Box */
 
 .Left{
   display:inline;
@@ -132,6 +150,10 @@ body{
   list-style: none;
 }
 
+
+
+/* Right Box */
+
 .Right{
   width:716px;
   padding:25px 25px 0px 25px;
@@ -142,8 +164,24 @@ body{
   border-bottom:solid;
 }
 
-.Right img{
+.Right__dckbtt{
   float:right;
+}
+
+.Right__tr1{
+  background-color: green;
+}
+
+.Right__tr2{
+  background-color: #898989;
+}
+
+.Right__tr3{
+  background-color: #787878;
+}
+
+.Right__tr4{
+  background-color: #898989;
 }
 
 .Right h1{
@@ -153,26 +191,107 @@ body{
 .Seite1table{
   width:80%;
   margin:0 auto;
-  color:white;
   border-collapse: collapse;
 }
 
-.Seite1table tr:nth-child(odd){
-  background-color: #232323;
+.Seite1table__top-left{
+border-top-left-radius: 10px;
 }
 
-.Seite1table tr:nth-child(even){
-  background-color: #191919;
+.Seite1table__top-right{
+  border-top-right-radius: 10px;
+}
+
+.Seite1table__bottom-left{
+  border-bottom-left-radius: 10px;
+}
+
+.Seite1table__bottom-right{
+  border-bottom-right-radius: 10px;
 }
 
 .Seite1table td{
   text-align:center;
-  border-radius: 7px;
-  border:solid;
   border-width: thin;
   overflow:hidden;
   border-color: #999999;
+  height:25px;
 }
+
+
+
+/* Right Box | Seite 2 | Button | Block */
+
+.btn {
+  text-decoration: none;
+  background-color: white;
+  color: #888;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 5px;
+}
+
+/* Element */
+.btn__price {
+  background-color: white;
+  color: #fff;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: -10px;
+  font-weight: 600;
+  background-color: #333;
+  opacity: .4;
+  border-radius: 5px 0 0 5px;
+}
+
+/* Element */
+.btn__text {
+  padding: 0 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Modifier */
+.btn--big {
+  font-size: 28px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+/* Modifier */
+.btn--small {
+  font-size: 12px;
+  padding: 5px;
+  font-weight: 200;
+}
+
+/* Modifier */
+.btn--blue {
+  border-color: #0074D9;
+  color: white;
+  background-color: #0074D9;
+}
+
+/* Modifier */
+.btn--orange {
+  border-color: #FF4136;
+  color: white;
+  background-color: #FF4136;
+}
+
+/* Modifier */
+.btn--yellow {
+  border-color: #3D70BB;
+  color: black;
+  background-color: #FFFF00;
+}
+
+
+
+/* Footer */
 
 .Footer{
   position:fixed;
