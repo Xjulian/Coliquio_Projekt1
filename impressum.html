@@ -1,67 +1,91 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Website Startseite</title>
     <link rel="stylesheet" href="design/960.css">
     <link rel="stylesheet" href="design/design.css">
     <script language="javascript" type="text/javascript" src="design/javascript.js"></script>
 
-  </head>
+</head>
+
 <body>
 
-<!-- Banner -->
+    <!-- Banner -->
 
 
-  <div class="Container">
+    <div class="Container Container__impressum">
 
-    <div class="Banner">
-      Website
-    </div>
-
-<!-- Navi -->
-
-    <nav class="navi">
-      <ul class="navi__list">
-        <li class="navi__listenelement"><a href="index.html">Hauptseite</a></li>
-        <li class="navi__listenelement"><a href="seite1.html">Seite 1</a></li>
-        <li class="navi__listenelement">
-        <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">Mehr</button>
-          <div id="drpdwnnavi" class="dropdown-content">
-            <a href="seite2.html">Seite 2</a>
-            <a href="seite3.html">Seite 3</a>
-          </div>
+        <div class="Banner">
+            Website
         </div>
-        </li>
-        <li class="navi__impr"><a href="impressum.html"><p class="navi__aktuell">Impressum</p></a></li>
-      </ul>
-    </nav>
 
+        <!-- Navi -->
 
-    <div class="container_12">
-      <div class="grid_6 box"><video>
-<source src="video.ogg" type="video/ogg" />
-</video></div>
-      <div class="grid_6 box">B</div>
-    </div>
+        <nav class="navi navi__impressum">
+            <ul class="navi__list">
+                <li class="navi__listenelement"><a href="index.html">Hauptseite</a></li>
+                <li class="navi__listenelement"><a href="seite1.html">Seite 1</a></li>
+                <li class="navi__listenelement">
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Mehr</button>
+                        <div id="drpdwnnavi" class="dropdown-content">
+                            <a href="seite2.html">Seite 2</a>
+                            <a href="seite3.html">Seite 3</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navi__impr">
+                    <a href="impressum.html">
+                        <p class="navi__aktuell">Impressum</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+<!-- Article -->
+
+        <div class="container_12">
+            <div class="grid_6 box">
+                <iframe width="460" height="315" src="http://www.youtube.com/embed/XGSy3_Czz8k">
+                </iframe>
+            </div>
+            <div class="grid_6 box">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/eVE3JVbeLvo" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
 
 
         <div class="container_12">
-          <div class="grid_6 box">A</div>
-          <div class="grid_3 box">B</div>
-          <div class="grid_3 box">C</div>
+            <div class="grid_6 box">
+                <div style="width: 600px">
+                    <iframe width="460" height="315" src="http://regiohelden.de/google-maps/map.php?width=600&amp;height=300&amp;hl=de&amp;q=Konstanz%2C%20Turmstra%C3%9Fe%2022+(coliquio%20GmbH)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no"
+                        marginheight="0" marginwidth="0"><a style="font-size: 9px;" href="http://www.regiohelden.de/google-maps/" style="font-size: 9px;">Google Maps Generator</a> by <a href="http://www.regiohelden.de/">RegioHelden</a></iframe>
+                    <br /><span style="font-size: 9px;"><a style="font-size: 9px;" href="http://www.regiohelden.de/google-maps/" style="font-size: 9px;">Google Maps Generator</a> by <a href="http://www.regiohelden.de/" style="font-size: 9px;">RegioHelden</a></span></div>
+            </div>
+            <div class="grid_3">
+
+                <audio style="width: 230px" controls>
+                    <source src="design/shattered.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+                </audio>
+
+            </div>
+            <div class="grid_3 box">
+                <a href="index.html"><img src="design/katze-gurke.jpg" width="220px" height="180px"></a>
+            </div>
         </div>
 
 
-</div>
-
-<!-- Footer -->
-
-  <div class="Footer">
-    <div class="cprght">
-      © 2016 Footer
     </div>
-  </div>
+
+    <!-- Footer -->
+
+    <div class="Footer">
+        <div class="cprght">
+            © 2016 Footer
+        </div>
+    </div>
 </body>
+
 </html>
