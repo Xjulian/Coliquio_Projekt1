@@ -1,0 +1,62 @@
+body{
+  min-width: inherit;
+}
+
+@media (max-width:990px){
+  .Container{
+    width:720px;
+    height:1550px;
+  }
+
+  .container_12,
+  .grid_6,
+  .container_16,
+  .grid_3{
+    clear:both;
+  }
+}
+
+@media (max-width:750px){
+  .Container{
+    width:640px;
+    height:1525px;
+  }
+
+  .container_12,
+  .grid_6,
+  .container_16,
+  .grid_3{
+    clear:both;
+    width:640px;
+  }
+}
+
+@media (max-width: 675px){
+  .Container{
+    width: 320px;
+    height: 1060px;
+  }
+
+  .Banner{
+    padding-left: 50%;
+  }
+
+  .navi a{
+    margin:5px 5px;
+  }
+
+  .container_12,
+  .grid_6,
+  .container_16,
+  .grid_3{
+    clear:both;
+    padding:0 0 5px;
+    margin:0;
+    width:320px;
+  }
+
+  iframe{
+    width:320px;
+    height:auto;
+  }
+}

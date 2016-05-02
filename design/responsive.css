@@ -1,0 +1,53 @@
+@media (max-width:990px){
+  .Container{
+    width:720px;
+    height:900px;
+  }
+
+  .Right{
+    width:445px;
+    height:711px;
+  }
+}
+
+@media (max-width:750px){
+  .Container{
+    width:640px;
+    height:950px;
+  }
+
+  .Right{
+    width:365px;
+    height:761px;
+  }
+
+  .Right__dckbtt{
+    max-width: 50%;
+    max-height: auto;
+  }
+}
+
+@media (max-width: 675px){
+  .Container{
+    width: 320px;
+    height: 1175px;
+  }
+
+  .Banner{
+    padding-left: 50%;
+  }
+
+  .navi a{
+    margin:5px 5px;
+  }
+
+  .Right{
+    width: 270px;
+    height: 850px;
+  }
+
+  .Right__dckbtt{
+    max-width: 50%;
+    max-height: auto;
+  }
+}

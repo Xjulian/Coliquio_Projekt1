@@ -5,7 +5,7 @@
 
 body{
   margin:0px;
-  background-color:#aaa;
+  background-color:#444;
 }
 
 
@@ -17,7 +17,7 @@ body{
   border:solid;
   border-width: thick;
   border-color: #bbb;
-  width:1000px;
+  width:960px;
   height:667px;
   box-shadow: 0px 3px 10px 5px #222;
 
@@ -46,8 +46,9 @@ body{
 /* Navigation */
 
 .navi{
-  background-color:#222222;
-  border-style: solid;
+  background-color:#333;
+  border-top: solid;
+  border-bottom:solid;
   border-width: thin;
   border-color: #aaa;
 }
@@ -163,12 +164,8 @@ iframe{
   display:inline;
   float:left;
   width:200px;
-  padding:25px 0 0 25px;
-  height:475px;
-  background-color: #989898;
-  border-left:solid;
-  border-right:solid;
-  border-bottom:solid;
+  padding:25px 0 25px 25px;
+  height:auto;
 }
 
 .Left li{
@@ -181,17 +178,19 @@ iframe{
 /* Right Box */
 
 .Right{
-  width:716px;
+  width: 685px;
   padding:25px 25px 0px 25px;
   float:left;
   background-color: #787887;
-  height:475px;
-  border-right:solid;
-  border-bottom:solid;
+  height:478px;
 }
 
 .Right__dckbtt{
   float:right;
+  width:auto;
+  height: auto;
+  max-width: 250px;
+  max-height: 303px;
 }
 
 .Right__tr1{
@@ -323,13 +322,13 @@ border-top-left-radius: 10px;
 
 /* Seite Impressum | Grid */
 
-.wrapper {
+/* .wrapper {
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-gap: 10px;
   background-color: #fff;
   color: #444;
-}
+} */
 
 .box {
   color: #fff;
