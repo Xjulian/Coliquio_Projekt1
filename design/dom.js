@@ -12,6 +12,6 @@ function dom(){
   var ergaenzung_erweitert = ergaenzung.nodeValue + " 4";
   ergaenzung.nodeValue = ergaenzung_erweitert;
 //  if(document.getElementById('button()').onclick == true){
-//  alert("adhgsgl");}
+//   alert("adhgsgl");}
 //  Funktioniert nicht!
 }

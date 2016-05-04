@@ -182,7 +182,6 @@ iframe{
   padding:25px 25px 0px 25px;
   float:left;
   background-color: #787887;
-  height:478px;
 }
 
 .Right__dckbtt{
@@ -247,6 +246,17 @@ border-top-left-radius: 10px;
   padding-left:3%;
 }
 
+.jquerydiv{
+  padding:25px;
+  width: 910px;
+  height: 478px;
+  background-color: #666;
+}
+
+#hiddenmessage{
+  display:none;
+  padding: 10px;
+}
 
 /* Right Box | Seite 2 | Button | Block */
 

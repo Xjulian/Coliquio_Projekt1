@@ -1,0 +1,51 @@
+.Container{
+  height:320px;
+}
+
+.jquerydiv{
+  height: 106px;
+}
+
+@media (max-width:990px){
+  .Container{
+    width:720px;
+    height:320px;
+  }
+
+  .jquerydiv{
+    width:670px;
+    height:106px;
+  }
+}
+
+@media (max-width:750px){
+  .Container{
+    width:640px;
+    height:320px;
+  }
+
+  .jquerydiv{
+    width:365px;
+    height:131px;
+  }
+}
+
+@media (max-width: 675px){
+  .Container{
+    width: 320px;
+    height: 471px;
+  }
+
+  .Banner{
+    padding-left: 50%;
+  }
+
+  .navi a{
+    margin:5px 5px;
+  }
+
+  .jquerydiv{
+    width: 270px;
+    height: 125px;
+  }
+}
